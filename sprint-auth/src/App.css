@@ -28,3 +28,11 @@ a {
   color: black;
   font-weight: bold;
 }
+
+.body {
+  background-image: url('https://www.thepugdiary.com/wp-content/uploads/DIY_Bow_Tie_The_Pug_Diary_27082015_0014.jpg');
+  width: 800px;
+  height: 534px;
+  margin: 0 auto;
+  opacity: .8;
+}

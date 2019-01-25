@@ -21,7 +21,6 @@ class Jokes extends Component {
             this.setState({
                 jokes: response.data
             })
-            console.log(response)
         })
         .catch(() => console.log('error accessing jokes'))
     }

@@ -38,6 +38,7 @@ class Login extends Component {
         type={type}
         placeholder={placehold}
         onChange={this.handleChange}
+        autoComplete='off'
       />
     );
     return (
