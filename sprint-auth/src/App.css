@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+.joke-div {
+  width: 200px;
+  margin: 8px;
+  padding: 5px;
+}
+
+.joke-holder {
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  width: 800px;
+  justify-content: space-evenly;
+  margin: 15px auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}

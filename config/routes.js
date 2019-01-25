@@ -33,8 +33,8 @@ function register(req, res) {
 
   db("users")
     .insert(userInfo)
-    .then(ids => {
-      res.status(201).send(ids);
+    .then(user => {
+      res.status(201).send(user);
     })
     .catch(() => res.status(500).send("error registering"));
 }
